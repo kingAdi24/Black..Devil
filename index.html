@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farewell Celebration 🎉</title>
+  
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2"></script>
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="assets/music/background-music.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <div class="container">
+    <h1>🎉 Farewell Celebration 🎉</h1>
+
+    <!-- RSVP Form -->
+    <form id="rsvpForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <button type="submit">Submit RSVP</button>
+    </form>
+
+    <!-- RSVP Display -->
+    <div id="rsvpDisplay">
+      <p id="rsvpCount">Total Members Count: 0</p>
+      <ul id="rsvpList"></ul>
+    </div>
+    
+    <!-- Next Page -->
+    <p class="timer">Redirecting in <span id="countdown">10</span> seconds... ⏳</p>
+    <button onclick="goToNextPage()">➡️ Next Page</button>
+  </div>
+
+  <footer id="footer">
+    Made by - <span class="glow-text">King Adi [Aditya] 👑</span>
+  </footer>
+
+</body>
+</html>

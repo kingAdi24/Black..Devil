@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farewell Message 🎭</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Thank You for the Memories! ❤️</h1>
+    <p>We cherish every moment we spent together. Stay in touch and share this celebration with your friends! 🎊</p>
+
+    <!-- Share Section -->
+    <button onclick="shareWebsite()">📢 Share</button>
+  </div>
+
+  <footer id="footer">
+    Made by - <span class="glow-text">King Adi [Aditya] 👑</span>
+  </footer>
+
+  <script>
+    function shareWebsite() {
+      const url = window.location.href;
+      navigator.clipboard.writeText(url);
+      alert("Website link copied! Share it with friends. 📲");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* General Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: radial-gradient(circle, #1a2a6c, #b21f1f, #fdbb2d);
+  text-align: center;
+  color: #fff;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 0 20px gold;
+}
+h1 { font-size: 2.5rem; text-shadow: 0 0 10px gold; }
+button {
+  background: #ff3d00;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover { transform: scale(1.1); }
